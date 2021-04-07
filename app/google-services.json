@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "250826263650",
+    "firebase_url": "https://ess-kepco-plug.firebaseio.com",
+    "project_id": "ess-kepco-plug",
+    "storage_bucket": "ess-kepco-plug.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250826263650:android:37d61cb8509694f303953b",
+        "android_client_info": {
+          "package_name": "com.example.ess"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "250826263650-q2dvjneheukvbnn8044cbl0re0v7ftm2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsIjbQo4EBDIPV5av29JPSO5ApVLfe1dg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "250826263650-q2dvjneheukvbnn8044cbl0re0v7ftm2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
