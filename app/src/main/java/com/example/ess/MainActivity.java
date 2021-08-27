@@ -176,65 +176,6 @@ public class MainActivity extends AppCompatActivity  {
         }
 
 
-        /*
-        MapPOIItem marker = new MapPOIItem();
-        marker.setItemName("광산구 전기차 충전소");
-        marker.setTag(0);
-        marker.setMapPoint(mapPoint);
-        marker.setMarkerType(MapPOIItem.MarkerType.BluePin);
-        marker.setSelectedMarkerType(MapPOIItem.MarkerType.RedPin);
-        mapView.addPOIItem(marker);
-        */
     }
-    /*
-    private class Task extends AsyncTask<String, String, String> {
-        JSONArray ev_JsonArray;
-
-        @Override
-                protected void onPreExecute(){super.onPreExecute();}
-
-
-        ContentValues id;
-        String url = "http://203.237.114.218:8080/ess/Ev.jsp";
-        Task() {
-
-        }
-
-
-        @Override
-        protected JSONArray doInBackground(String... strUrl) {
-            String result;
-
-            try{
-                URL url = new URL(strUrl[0]);
-                HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-                InputStream in = new BufferedInputStream(conn.getInputStream());
-                BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(in, "UTF-8"));
-                StringBuffer builder = new StringBuffer();
-
-                String inputString = null;
-                while((inputString = bufferedReader.readLine()) != null){
-                    builder.append(inputString);
-                }
-
-                String s = builder.toString();
-                ev_JsonArray = new JSONArray(s);
-                System.out.println(ev_JsonArray.toString());
-                conn.disconnect();
-                bufferedReader.close();
-                in.close();
-            } catch (IOException e){
-                e.printStackTrace();
-            } catch (JSONException e){
-                e.printStackTrace();
-            }
-
-            return ev_JsonArray;
-        }
-
-
-    }
-
-*/
-
+  
 
